@@ -27,4 +27,5 @@ Intelligence * 1.5
 
 ## Armor
 1 dobás egy 100 oldalú kockával
-### Damage reduction - Armor / 2 (százalék)
+### Damage reduction
+Armor / 2 (százalék)
