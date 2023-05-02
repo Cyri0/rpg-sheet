@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 25, 25);
+}
+
+#profilePic{
+    min-width: 200px;
+    min-height: 200px;
+    width: 50vw;
+    height: 50vw;
+
+    max-width:  400px;
+    max-height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    margin: 20px;
+    margin: auto;
+    background-image: url('gandalf.jpeg');
+    border: 2px solid white;
+}
+
+.skill{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main-skill, .derived-skill{
+    background-color: rgb(0, 41, 54);
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-skill{
+    color: white;
+    font-size: 1.3rem;
+    color: palevioletred;
+    font-weight: bold;
+}
+
+.main-skill span:first-child{
+    color: white;
+}
+
+.derived-skill{
+    color: rgb(20, 136, 182);
+    color: orange;
+}
+
+.derived-skill span:first-child{
+    font-weight: bold;
+    color: rgb(20, 136, 182);
+
+}
